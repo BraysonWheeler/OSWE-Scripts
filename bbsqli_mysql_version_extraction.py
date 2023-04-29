@@ -1,5 +1,14 @@
 import requests
 
+"""
+DB CONSTRUCTS QUERY : 
+
+SELECT count(*) FROM AT_members M WHERE (first_name LIKE '%A%' 
+    OR second_name LIKE '%A%' 
+    OR last_name LIKE '%A%'
+    OR login LIKE '%A%');
+
+"""
 
 def construct_inj_str(index:int,ascii_rep:int):
     """
