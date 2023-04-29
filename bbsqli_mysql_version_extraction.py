@@ -1,5 +1,3 @@
-import sys
-import hashlib
 import requests
 
 
