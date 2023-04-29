@@ -1,0 +1,12 @@
+mysql
+    [!!!!!!!!!!!!!!!!] SELECT * FROM sometable\G makes the output much easier to read
+    - Configured in my.cnf
+    - un comment general log stuff
+    - restart: sudo systemctl restart mysql
+
+    [connection]
+    mysql -u <username> -p #You'll be prompted for pass
+    [Switch db]
+    use <db_name>
+    [list tables]
+    show tables
