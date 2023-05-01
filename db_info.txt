@@ -5,7 +5,7 @@ mysql
     - restart: sudo systemctl restart mysql
 
     [connection]
-    mysql -u <username> -p #You'll be prompted for pass
+    mysql -u<username> -p<password>
     [Switch db]
     use <db_name>
     [list tables]
