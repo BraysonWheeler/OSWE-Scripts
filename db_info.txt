@@ -1,5 +1,6 @@
 mysql
-    [!!!!!!!!!!!!!!!!] SELECT * FROM sometable\G makes the output much easier to read
+    SELECT * FROM sometable\G makes the output much easier to read
+    
     - Configured in my.cnf
     - un comment general log stuff
     - restart: sudo systemctl restart mysql
