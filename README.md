@@ -1,3 +1,3 @@
 # OSWE_Scripts
 
-Scripts for OSWE
+Scripts for OSWE Prep
